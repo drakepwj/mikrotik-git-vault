@@ -22,4 +22,3 @@ jobs:
           aws s3 sync . s3://${{ secrets.S3_BUCKET_NAME }}/ \
             --exclude '.git/*' \
             --exclude '.github/workflows/*' \
-            --endpoint-url https://vpce-088aaccdb8d70df21.s3.us-west-2.vpce.amazonaws.com
