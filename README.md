@@ -5,3 +5,5 @@ I built this repository to showcase my Cloud DevOps skills, click the link below
 You can also find my web resume at this link:
 
 [Drake_Johnson_Resume](drakepwj.click)
+
+🔐 Security Note: This repo excludes all sensitive files (e.g., *.tfvars, certs, state files) via .gitignore. All infrastructure is safe to review and deploy in a sandboxed AWS account.
